@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Fales Portfolio</title>
+
+<!-- Bootstrap css file-->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<!-- font awesome icons file -->
+<link rel="stylesheet" href="./css/all.min.css">
+
+<!-- custom css file -->
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+   
+  
+
+
+    <!-- ===================================== Start Header Area ======================================================-->
+
+<header class="header_area">
+    <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/logo2.jpg"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="HomeBtnClicked()">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="AboutBtnClicked()">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="ProjectsBtnClicked()">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="SkillsBtnClicked()">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="GitHubBtnClicked()">GitHub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="AcademicsBtnClicked()">Academics</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="ContactBtnClicked()">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+</header>
+
+    <!-- ===================================== End Header Area ======================================================-->
+
+<br> <br><br><br>
+
+    <!-- ===================================== Start Main Area ======================================================-->
+
+    <!--  ======================= Start Banner Area =======================  -->
+    <section class="site-banner">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-md-12 site-title">
+                  <h3 class="title-text text-uppercase">Hello,</h3>
+                  <h1 class="title-text">I am David Fales,</h1>
+                  <h4 class="title-text">I am a computer science student</h4>
+                  <div class="site-buttons">
+                      <div class="d-flex flex-row flex-wrap">
+                          <button type="button" class="btn button primary-button me-4 text-uppercase" onclick="AboutBtnClicked()">About Me</button>
+                          <button type="button" class="btn button secondary-button text-uppercase" onclick="ContactBtnClicked()">Contact Me</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12 banner-image">
+                  <img src="./img/Me.jpg" alt="banner-img" class="img-fluid">
+              </div>
+          </div>
+      </div>
+    </section>
+    <!--  ======================= End Banner Area =======================  -->
+
+    <!-- ===================================== End Main Area ======================================================-->
+
+    <br><br><br> <br>
+    <br><br><br> <br>
+    <!--  ========================= Start About Area ==========================  -->
+
+    <section class="about-area">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-6 col-md-12">
+                  <div class="about-image">
+                      <img src="./img/about-me.png" alt="About us" class="img-fluid">
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12 about-title">
+                  <h2 class="text-uppercase pt-5">
+                      <span>Why</span>
+                      <span>did I </span>
+                      <span>make this</span>
+                  </h2>
+                  <div class="paragraph py-4 w-75">
+                      <p class="para">
+                          Hello, My name is David Fales and I created a Portfolio fake/real about myself and about my programming life.
+                      </p>
+                      <p class="para">
+                          I made this so that I could not only get more expeirnce in HTML and CSS and Javascript, but to also use this as a page for me to judge what I'm good at and what I need work on doing. 
+                          Plus its a good start to what a real portfolio could look like when I'm ready to make a real one. This is just a pracitce one. But everything that's on it right now is real.
+                      </p>
+                  </div>
+                  <button type="button" class="btn button primary-button text-uppercase" onclick="ContactBtnClicked()">Contact Me</button>
+                  <button type="button" class="btn button secondary-button text-uppercase" onclick="AboutBtnClicked()">More About Me</button>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--  ========================= End About Area ==========================  -->
+
+  <br><br><br> <br>
+
+
+    <!-- JQuery js file -->
+    <script src="./js/jquery.3.4.1.js"></script>
+
+    <!-- Boostrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Main js file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

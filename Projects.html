@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+
+<!-- Bootstrap css file-->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+
+<!-- font awesome icons file -->
+<link rel="stylesheet" href="./css/all.min.css">
+
+<!-- custom css file -->
+<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+   
+  
+
+
+    <!-- ===================================== Start Header Area ======================================================-->
+
+<header class="header_area">
+    <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/logo2.jpg"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="HomeBtnClicked()">Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="AboutBtnClicked()">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="ProjectsBtnClicked()">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="SkillsBtnClicked()">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="GitHubBtnClicked()">GitHub</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="AcademicsBtnClicked()">Academics</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="ContactBtnClicked()">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+</header>
+
+    <!-- ===================================== End Header Area ======================================================-->
+
+<br> <br><br><br>
+
+    <!-- ===================================== Start Main Area ======================================================-->
+
+
+    <section class="projects-setup">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-md-12 skills-title-setup">
+                  <h1 class="title-text text-uppercase">Here is some projects I have done</h1>
+              </div>
+              <div class="col-lg-6 col-md-12 banner-image">
+                  <img src="./img/logos/projects.jpg" alt="setup-img" class="img-fluid">
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <br> <br><br><br><br><br>
+
+  <section class="skills-setup">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 banner-image">
+            <img src="./img/games/OregonRoad.png" alt="setup-img" class="img-fluid">
+          </div>
+            <div class="col-lg-6 col-md-12 skills-title-setup">
+                <h1 class="title-text text-uppercase">Oregon Road (not finished yet)</h1>
+                <div class="paragraph py-6 w-100px">
+                  <p class="para" style="font-size: x-large;">
+                      This is a program completly created by me through plain vanilla java. Using the idea of the Oregon Road text adventure. I put my own twist to it making it so the descision you make along the way affect everything that you do in the future.
+                  </p>
+                  </div>
+                  <br><br>
+                  <button type="button" class="btn button primary-button text-uppercase" onclick="GitHubProjectBthClicked(1)">Download</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br> <br><br><br><br><br>
+
+
+<section class="skills-setup">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 banner-image">
+          <img src="./img/games/Snake.png" alt="setup-img" class="img-fluid">
+        </div>
+          <div class="col-lg-6 col-md-12 skills-title-setup">
+              <h1 class="title-text text-uppercase">Snake</h1>
+              <div class="paragraph py-6 w-100px">
+                <p class="para" style="font-size: x-large;">
+                    In this program I built a snake game with a little bit of help form a tutorial. A simple snake game built completly through java.
+                </p>
+                </div>
+                <br><br>
+                <button type="button" class="btn button primary-button me-4 text-uppercase" onclick="GitHubProjectBthClicked(2)">Download</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+<br> <br><br><br><br><br>
+
+<section class="skills-setup">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 banner-image">
+          <img src="./img/games/Pong.png" alt="setup-img" class="img-fluid">
+        </div>
+          <div class="col-lg-6 col-md-12 skills-title-setup">
+              <h1 class="title-text text-uppercase">Pong</h1>
+              <div class="paragraph py-6 w-100px">
+                <p class="para" style="font-size: x-large;">
+                  In this program I built a Pong game with a little bit of help form another tutorial. A little bit more complex pong game then normally with more object orientation in it written entierly from java.
+                </p>
+                </div>
+                <br><br>
+                <button type="button" class="btn button primary-button text-uppercase" onclick="GitHubProjectBthClicked(3)">Download</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+<br> <br><br><br><br><br>
+
+<section class="skills-setup">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 banner-image">
+          <img src="./img/games/InstantMessanger.png" alt="setup-img" class="img-fluid">
+        </div>
+          <div class="col-lg-6 col-md-12 skills-title-setup">
+              <h1 class="title-text text-uppercase">Instant Messanger</h1>
+              <div class="paragraph py-6 w-100px">
+                <p class="para" style="font-size: x-large;">
+                  This is an instant messanger that the New Boston Java created that I put on here.  I am right now in the making of one of my own with the one I have so far. 
+                </p>
+                </div>
+                <br><br>
+                <button type="button" class="btn button primary-button text-uppercase" onclick="GitHubProjectBthClicked(4)">Download</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<br> <br><br><br><br><br>
+
+<section class="skills-setup">
+  <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 banner-image">
+          <img src="./img/logos/Portfolio.png" alt="setup-img" class="img-fluid">
+        </div>
+          <div class="col-lg-6 col-md-12 skills-title-setup">
+              <h1 class="title-text text-uppercase">Portfolio (always getting updated)</h1>
+              <div class="paragraph py-6 w-100px">
+                <p class="para" style="font-size: x-large;">
+                   This prject is what your reading from right now. This is the first time I'm ever writing a javascript code bymyself witout that much help and I thought I'd share it here.
+                </p>
+                </div>
+                <br><br>
+                <button type="button" class="btn button primary-button text-uppercase" onclick="GitHubProjectBthClicked(5)">Download</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+<br> <br><br><br><br><br>
+<br> <br><br><br><br><br>
+
+<section class="skills-setup">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6 col-md-12 skills-title-setup">
+              <h1 class="title-text text-uppercase">Other Projects</h1>
+              <div class="paragraph py-6 w-100px">
+                <p class="para" style="font-size: x-large;">
+                    I want to make a lot more projects later on so that I can put them on this portfolio.
+                </p>
+                </div>
+          </div>
+          <div class="col-lg-6 col-md-12 banner-image">
+            <img src="./img/logos/logo.png" alt="setup-img" class="img-fluid">
+          </div>
+      </div>
+  </div>
+</section>
+
+<br><br><br><br>
+<br><br><br><br>
+
+    <!-- JQuery js file -->
+    <script src="./js/jquery.3.4.1.js"></script>
+
+    <!-- Boostrap js file -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Main js file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
