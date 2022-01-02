@@ -90,6 +90,10 @@ function LearnMoreBtnClicked(choice){
     }
 }
 
+function DiscordBtnClicked(){
+    document.location.href="https://discord.com/channels/@me";
+}
+
 function RobotGitHubBthClicked(){
     document.location.href="https://github.com/orgs/RegisJesuitRobotics/teams/2022-programmers";
 }
