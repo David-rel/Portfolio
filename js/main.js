@@ -67,6 +67,27 @@ function GitHubProjectBthClicked(choice){
         document.location.href="https://github.com/David-rel/Portfolio";
 
     }
+    if(choice == 6){
+        document.location.href="https://github.com/David-rel/BattleShip";
+
+    }
+    if(choice == 7){
+        document.location.href="https://github.com/David-rel/BudgetApp";
+
+    }
+    if(choice == 8){
+        document.location.href="https://github.com/David-rel/Uno";
+
+    }
+    if(choice == 9){
+        document.location.href="https://github.com/David-rel/Tetris";
+
+    }
+    if(choice == 10){
+        document.location.href="https://github.com/David-rel/MyBlog";
+    }
+
+    
 }
 
 function LearnMoreBtnClicked(choice){
